@@ -1,0 +1,67 @@
+<meta charset="UTF-8">
+
+<h1>PROGRAMA</h1>
+
+<script>
+	
+	function saltoDeLinea() {
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	function calcularEdad(anhoNacimiento,nombre) {
+		var anhoActual = 2025;
+		var edad = anhoActual - anhoNacimiento;
+		return document.write(nombre+ " tiene: " + edad + " años");
+	}
+
+	function imprimir(frase) {
+		return document.write(frase);
+	}
+
+	calcularEdad(2000,"Juan");
+	saltoDeLinea();
+	calcularEdad(1995,"Pedro");
+	saltoDeLinea();
+	calcularEdad(1990,"Carlos");
+	saltoDeLinea();
+	imprimir("Juan tiene 20 años");
+	
+
+</script>
+
+<meta charset="UTF-8">
+<script>
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+    }
+
+    var miEdad = 18;
+    var edadHermano = 15;
+
+    imprimir("Nuestra diferencia de edad es " + (miEdad - edadHermano));
+</script>
+
+<meta charset="UTF-8">
+<script>
+
+function saltarLinea() {
+     // saltando cinco lineas
+    document.write("<br>");    
+    document.write("<br>");    
+    document.write("<br>");
+    document.write("<hr>");    
+    document.write("<br>");    
+    document.write("<br>");
+}
+
+function imprimir(frase) {
+    document.write("<big>" + frase + "</big>");
+    saltarLinea();
+}
+</script>
